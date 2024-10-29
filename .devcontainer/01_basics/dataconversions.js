@@ -23,3 +23,35 @@ console.log(booleanisloggedin);
 let someNumber=32;
 let stringNumber=String(someNumber);
 console.log(typeof stringNumber);
+
+//********Operations********
+let value=3;
+let negvalue=-value;
+console.log(negvalue);
+
+/*console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2/2);
+console.log(2/2);
+console.log(2**2);
+console.log(2%2);*/
+
+let str1="Aliya";
+let str2="Mohammadi";
+console.log(str1 +" "+ str2);
+
+/*console.log("2"+1+2);//It depends on which data type is used first string is used so it will concatenate in form of string 212
+console.log(1+2+"2");//first is int so it will take int and then string 32*/
+
+console.log(+true);
+console.log(+"");
+
+let x=3;
+let y=x++;
+console.log(y);
+console.log(x);
+
+let gameCounter=100;
+++gameCounter;
+console.log(gameCounter);
