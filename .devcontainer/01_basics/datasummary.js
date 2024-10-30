@@ -9,3 +9,38 @@ const outsideTemp=null
 let userEmail;
 const id=Symbol('123')
 const anotherid=Symbol('123')
+console.log(id===anotherid);
+//const bigNumber=12345678999999n;
+const heroes=["shaktiman","nagaraj","doga"];
+let object={
+    name:"aliya",
+    section:"A",
+    age:22,
+
+
+};
+const myFunction=function(){
+    console.log("HelloWorld!!");
+}
+
+console.log(typeof bigNumber);
+console.log(typeof score);
+console.log(typeof scoreValue);
+console.log(typeof isLoggedIn);
+console.log(typeof outsideTemp);
+console.log(typeof userEmail);
+console.log(typeof id);
+console.log(typeof anotherid);
+console.log(typeof heroes);
+console.log(typeof object);
+console.log(typeof myFunction);
+
+//123=number
+//12.3=number
+//"Hello"=string
+//undefined=undefined
+//null=object
+//symbol=symbol
+//true or false=boolean
+//1233333333333333333333333333333=bigint
+//function=function
