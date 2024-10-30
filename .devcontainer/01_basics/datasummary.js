@@ -11,6 +11,8 @@ const id=Symbol('123')
 const anotherid=Symbol('123')
 console.log(id===anotherid);
 //const bigNumber=12345678999999n;
+
+//Non Primitive
 const heroes=["shaktiman","nagaraj","doga"];
 let object={
     name:"aliya",
@@ -44,3 +46,32 @@ console.log(typeof myFunction);
 //true or false=boolean
 //1233333333333333333333333333333=bigint
 //function=function
+
+//******************************************************************** */
+// Stack(Primitive),Heap(Non Primitive)
+//Primitive(Stack)
+let myYoutubename="Aliya.com";
+let anothername=myYoutubename;
+anothername="alfiya.com";
+
+console.log(myYoutubename);
+console.log(anothername);
+
+//Non Primitive(Heap)
+let userOne={
+    email:"aliya.com",
+    upi:"12333"
+
+};
+
+let userTwo=userOne;
+
+userTwo.email="alfiyamohammadi.com";
+console.log(userTwo.email);
+console.log(userOne.email);
+
+
+
+
+
+
